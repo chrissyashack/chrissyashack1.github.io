@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  font-family: sans-serif;
+  width: 360px;
+  height: 860px;
+  padding-top: 10px;
+}
+
+section {
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  height: 550px;
+}
+
+article {
+  background-color: #FFFFFF;
+}
+
+i {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+nav {
+  margin: 0 auto;
+	background-color: #FFFFFF;
+	height: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 98%;
+  background-image: url(../images/Statusbar.jpg);
+}
+
+h1 {
+  display: inline-block;
+  font-family: Gotham, sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:15px;
+  padding-left: 45px;
+}
+
+h2 {
+  font-family: Gotham, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00abff;
+  line-height: 18px;
+  padding-top: 50px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: .10px solid #313030;
+}
+
+h3, h4, h5 {
+  font-family: Gotham, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: black;
+  line-height: 22px;
+}
+
+h3 {
+  float:left;
+  padding-left: 15px;
+  width: 1%;
+}
+
+h4 {
+  float:left;
+  padding-left: 40px;
+  width: 56%;
+}
+
+h5 {
+  float: left;
+  padding-right: 15px;
+}
+
+.fa {
+  display: inline-block;
+  float: left;
+  width: 5%;
+  padding-left: 15px
+  color: #000000;
+}
