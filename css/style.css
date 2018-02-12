@@ -56,7 +56,7 @@ body {
   background-color: #e7e7e7;
   font-family: sans-serif;
   width: 360px;
-  height: 860px;
+  height: 740px;
   padding-top: 10px;
 }
 
@@ -72,8 +72,8 @@ article {
 
 i {
   display: inline-block;
-  padding-left: 15px;
-  padding-top: 25px;
+  padding-left: 4%;
+  padding-top: 7%;
 }
 
 nav {
