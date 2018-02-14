@@ -54,7 +54,7 @@ table {
 body {
   margin: 0 auto;
   background-color: #e7e7e7;
-  font-family: sans-serif;
+  font-family: "Gotham", sans-serif;
   width: 360px;
   height: 740px;
   padding-top: 10px;
@@ -88,7 +88,7 @@ nav {
 
 h1 {
   display: inline-block;
-  font-family: Gotham, sans-serif;
+  font-family: "Gotham", sans-serif;
   font-size: 24px;
   font-weight: lighter;
   text-align: center;
@@ -98,13 +98,13 @@ h1 {
 }
 
 h2 {
-  font-family: Gotham, sans-serif;
+  font-family: "Gotham", sans-serif;
   font-size: 11px;
   font-weight: bold;
   text-transform: uppercase;
   color: #00abff;
   line-height: 18px;
-  padding-top: 50px;
+  padding-top:55px;
   padding-bottom: 3px;
   padding-left: 15px;
   padding-right: 15px;
@@ -112,7 +112,7 @@ h2 {
 }
 
 h3, h4, h5 {
-  font-family: Gotham, sans-serif;
+  font-family: "Gotham", sans-serif;
   font-weight: lighter;
   font-size: 13px;
   color: black;
